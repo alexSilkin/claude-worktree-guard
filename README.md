@@ -59,7 +59,7 @@ right at creation.
 ## Install
 
 ```bash
-claude plugin marketplace add <this-repo-url>
+claude plugin marketplace add alexSilkin/claude-worktree-guard
 claude plugin install worktree-guard@silkin-tools
 ```
 
