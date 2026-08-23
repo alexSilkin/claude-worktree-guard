@@ -1,0 +1,16 @@
+{
+  "description": "Denies EnterWorktree calls that would produce an unnamed, generated-looking, vague, or colliding worktree name. Returns a permission decision with the reason attached, so Claude retries with a real name rather than failing.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "EnterWorktree",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/worktree_name_guard.py\""
+          }
+        ]
+      }
+    ]
+  }
+}

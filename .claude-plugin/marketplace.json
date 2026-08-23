@@ -1,0 +1,18 @@
+{
+  "name": "silkin-tools",
+  "description": "Personal Claude Code plugins.",
+  "owner": {
+    "name": "Alex Silkin"
+  },
+  "plugins": [
+    {
+      "name": "worktree-guard",
+      "description": "Forces git worktrees to be named after the work they hold, and refuses to silently resume an existing one.",
+      "author": {
+        "name": "Alex Silkin"
+      },
+      "source": "./plugins/worktree-guard",
+      "category": "workflow"
+    }
+  ]
+}
