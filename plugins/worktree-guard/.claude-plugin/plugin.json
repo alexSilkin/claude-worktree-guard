@@ -1,6 +1,6 @@
 {
   "name": "worktree-guard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Claude Code has no setting for worktree naming: omit `name` and EnterWorktree invents `zealous-noether-b3d7e1`, then derives the branch from it. This plugin denies that call and asks for a task-derived slug instead. It also refuses to resume a same-named worktree silently, which EnterWorktree otherwise does with its branch and uncommitted changes attached.",
   "author": {
     "name": "Alex Silkin"
